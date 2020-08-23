@@ -23,7 +23,7 @@ final_listRMV_4 = []
 encry = []
 crap = []
 finally222 = []
-finalNIGA = ""
+finalMAN = ""
 
 # This does multiplication and addition to the ASCII number.
 for i in raw_text:
@@ -220,6 +220,6 @@ finally222 += final_listRMV_3
 print(finally222)
 
 for nga in finally222:
-    finalNIGA += str(nga)
+    finalMAN += str(nga)
 
-print(f"Final Encrypted Text: {finalNIGA}")
+print(f"Final Encrypted Text: {finalMAN}")

@@ -121,7 +121,7 @@ if int(length_raw_text) >= 4:
         list_2[int(vvti)] = bb
         list_2[int(vvti) + 1] = aa
 else:   # If no swapping is required, then this executes.
-    print("Your Mum Gae!")
+    print("Too Short!")
 
 print(list_2)
 

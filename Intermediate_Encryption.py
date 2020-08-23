@@ -152,10 +152,10 @@ if len(raw_text) >= 4:  # We have to ensure that the length of the final_listRMV
         print(final_listRMV)
 
     else:   # This is actually impossible to trigger since there had to be at least 1 single swap index.
-        print("Your Dad Lesbian!")
+        print("Bruhh!")
 
 else:   # If there isn't at least 4 characters in the raw text, this will be trigger and the swapping will not occur!
-    print("Your Dad Lesbian!")
+    print("Bruhh!")
 
 # This is the hint to the 3 distinct number index which we do the swapping and to the original number of characters in the raw text. The first number between the 2 '@' indicates the number of digit of the number of characters in the raw string, so the following numbers after the second '@' are the total number of digit. Then the last 3 character is the index which the swapping occurs and that the index is zero at the number indicating the number of characters in the raw text!
 final_listRMV_2 = lent + final_listRMV + abc122
